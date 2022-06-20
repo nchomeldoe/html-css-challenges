@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 20px;
+}
+
+div {
+  width: 210px;
+  height: 30px;
+}
+
+.german {
+  position: absolute;
+}
+
+.german:hover #german-one {
+  background-color: red;
+}
+
+.german:hover #german-two {
+  background-color: white;
+}
+
+.german:hover #german-three {
+  background-color: green;
+}
+
+#german-one {
+  background-color: black;
+}
+
+#german-two {
+  background-color: red;
+}
+
+#german-three {
+  background-color: gold;
+}
+
+.french {
+  position: relative;
+  top: 130px;
+  display: inline-block;
+}
+
+#french-one {
+  background-color: blue;
+  width: 70px;
+  height: 90px;
+  position: absolute;
+  left: 0px;
+}
+
+#french-two {
+  background-color: white;
+  width: 70px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+}
+
+#french-three {
+  background-color: red;
+  width: 70px;
+  height: 90px;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+
+.french:hover #french-one {
+  background-color: green;
+}
+
+.french:hover #french-three {
+  background-color: orange;
+}
